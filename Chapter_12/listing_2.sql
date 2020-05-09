@@ -1,0 +1,6 @@
+CREATE TABLE message (
+id SERIAL PRIMARY KEY,
+channel INTEGER NOT NULL,
+source TEXT NOT NULL,
+content TEXT NOT NULL
+);

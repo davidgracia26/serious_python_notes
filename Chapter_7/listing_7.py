@@ -15,3 +15,5 @@ def check_is_admin(f):
 @check_is_admin
 def get_food(username, type='chocolate'):
     return type + " nom nom nom!"
+
+print(get_food('admin'))
